@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> South Canterbury wildlife park </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+  </head>
 
+<body>
+<header> 
+<h1> South Canterbury's Premier Wildlife Park </h1>
+<h2> Come see us today! </h2>
+</header>
+
+<nav>
+<a href="index.html"> Home </a>
+<a href="opportunities.html"> Meet our animals </a>
+<a href="other-careers.html"> other info </a>     
+</nav>
+
+<main> 
+   <p> Join us as we celebrate the beauty of nature and inspire a new generation of wildlife enthusiasts. 
+Our park offers a range of immersive experiences, educational programs, 
+and engaging activities for visitors of all ages. 
+Plan your visit today and discover the wonders of the animal kingdom at South Canterbury's Premier Wildlife Park!
+  </p>
+</main> 
+
+<footer> 
+<f> 
+  &copy; Riley 2023
+</f>
+</footer>
+
+</body>
+
+<style> 
+ h1 { text-align: center;
+  font-family: 'Coiny', cursive;
+ color: #ffdf64;
+ font-size: xx-large;
+}
+
+h2 { text-align: center;
+  font-family: 'Hind Siliguri', sans-serif;
+    color: #ffdf64;
+  font-size: x-large;}
+
+body {background-color: #d4e6b5;}
+
+p { color: #8da168;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-size: large;
+}
+ footer { color: #cab354;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+    text-decoration: none;
+    color: #8da168;
+    border: 5px solid #cab354;
+    border-radius: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  a:hover {
+    color: #8da168;
+    background-color: #ffdf64;
+  }
+ header { background-image: url(Screenshot\ 2023-05-11\ at\ 7.51.26\ PM.png); 
+}
+
+  body {
+    display: grid;
+grid: 
+ " h    h    h " auto
+ " n    n    n " auto
+ " m    m    m " auto
+ " .    .    f " auto
+ / 1fr  5fr  1fr;
+  }
+
+  header { grid-area: h; }
+  nav    { grid-area: n; }
+  main   { grid-area: m; }
+  footer { grid-area: f; }
+
+
+
+</style> 
+</html>
