@@ -18,9 +18,10 @@
 </head>
 
 <body>
+<header> 
 <h1> South Canterbury's Premier Wildlife Park </h1>
 <h2> Come see us today! </h2>
-
+</header>
 
 <nav>
 <a href="index.html"> Home </a>
@@ -37,6 +38,9 @@ Plan your visit today and discover the wonders of the animal kingdom at South Ca
 </main> 
 
 <footer> 
+<f> 
+  &copy; Riley 2023
+</f>
 </footer>
 
 </body>
@@ -56,6 +60,7 @@ p { color: rgb(255, 255, 255);
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
+ footer { color: rgb(255, 255, 255);}
 
 a {
     text-decoration: none;
@@ -70,6 +75,20 @@ a {
     background-color: rgb(255, 255, 255);
   }
 
+  body {
+    display: grid;
+grid: 
+ " h    h    h " auto
+ " n    n    . " auto
+ " m    m    m " auto
+ " .    .    f " auto
+ / 1fr  5fr  1fr;
+  }
+
+  header { grid-area: h; }
+  nav    { grid-area: n; }
+  main   { grid-area: m; }
+  footer { grid-area: f; }
 
 </style> 
 </html>
