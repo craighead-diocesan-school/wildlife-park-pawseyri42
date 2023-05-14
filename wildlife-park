@@ -69,6 +69,8 @@ p { color: #ffffff;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
   font-size: large;
+  padding-left: 2cm;
+  padding-right: 2cm;
 }
  footer { color: #ffffff;
   font-family: 'Josefin Sans', sans-serif;
@@ -91,7 +93,10 @@ a {
  p1{ color: #ffffff;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  font-size: large;}
+  font-size: large;
+ padding-left: 2cm;
+ padding-right: 2cm;
+}
 
   nav{ text-align: center;}
 
@@ -104,7 +109,7 @@ grid:
  " h    h    h " auto
  " n    n    n " auto
  " m    m    m " auto
- " .    .   f " auto
+ " .    .    f " auto
  / 1fr  5fr  1fr;
   }
 
@@ -112,7 +117,6 @@ grid:
   nav    { grid-area: n; }
   main   { grid-area: m; }
   footer { grid-area: f; }
-
 
 
 </style> 
