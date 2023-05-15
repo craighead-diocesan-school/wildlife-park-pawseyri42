@@ -55,22 +55,23 @@ Plan your visit today and discover the wonders of the animal kingdom at South Ca
  h1 { text-align: center;
   font-family: 'Coiny', cursive;
  color: #ffffff;
- font-size: xx-large;
+ font-size: 350%
 }
 
 h2 { text-align: center;
   font-family: 'Hind Siliguri', sans-serif;
     color: hsl(0, 0%, 100%);
-  font-size: x-large;}
+  font-size: 320%;}
 
 body {background-color: #92a177;}
 
 p { color: #ffffff;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  font-size: large;
+  font-size: x-large;
   padding-left: 2cm;
   padding-right: 2cm;
+  padding-top: 0.5cm;
 }
  footer { color: #ffffff;
   font-family: 'Josefin Sans', sans-serif;
@@ -80,11 +81,14 @@ a {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
     text-decoration: none;
+    text-align: center;
     color: #ffffff;
     border: 5px solid #ffffff;
     border-radius: 2em;
     padding-left: 2em;
     padding-right: 2em;
+    margin-top: 2cm;
+    font-size: 140%;
   }
   a:hover {
     color: #d4e6b5;
@@ -93,9 +97,10 @@ a {
  p1{ color: #ffffff;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  font-size: large;
+  font-size: x-large;
  padding-left: 2cm;
  padding-right: 2cm;
+ padding-top: 1cm;
 }
 
   nav{ text-align: center;}
@@ -117,7 +122,6 @@ grid:
   nav    { grid-area: n; }
   main   { grid-area: m; }
   footer { grid-area: f; }
-
 
 </style> 
 </html>
