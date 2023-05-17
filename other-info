@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title> South Canterbury wildlife park </title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baumans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@300&display=swap" rel="stylesheet">
 
 </head>
 
@@ -21,11 +34,100 @@
 <p> 
 Meet the Young Visionaries: Alex and Taylor
 
-At just 20 years old, Alex and Taylor, the dynamic duo behind South Canterbury's Premier Wildlife Park, have already made a significant impact in the world of wildlife conservation and education. Their passion for animals and the environment started at a young age, leading them to pursue their dream of creating a unique wildlife park that fosters a strong connection between people and nature.
-
-Alex, an avid wildlife enthusiast with a keen eye for detail, has been instrumental in designing the park's innovative and immersive habitats. Alex's deep understanding of animal behavior and welfare ensures that every aspect of the park prioritizes the comfort and well-being of its residents. From hands-on experience working with wildlife rehabilitation centers to extensive research, Alex's commitment to the animals is truly inspiring.
-
-Taylor, a natural-born educator with a flair for communication, is responsible for the park's diverse range of educational programs and activities. Taylor's infectious enthusiasm for wildlife and conservation resonates with visitors of all ages, making learning both engaging and enjoyable. With a background in environmental science, Taylor is dedicated to raising awareness about the importance of protecting our planet's rich biodiversity.
-
-Together, Alex and Taylor have turned their vision into a reality, creating a wildlife park that not only showcases some of the world's most extraordinary animals but also inspires a new generation of wildlife enthusiasts and conservationists. Their passion, dedication, and determination at such a young age serve as a testament to the power of following your dreams and making a difference in the world.
+At just 20 years old, Alex and Taylor, the dynamic duo behind South Canterbury's Premier Wildlife Park, have already made a
+ significant impact in the world of wildlife conservation and education. Their passion for animals and the environment started at a young age, 
+leading them to pursue their dream of creating a unique wildlife park that fosters a strong connection between people and nature.
+</p>
+<p>
+Alex, an avid wildlife enthusiast with a keen eye for detail, 
+has been instrumental in designing the park's innovative and immersive habitats. Alex's deep understanding of animal behavior and welfare ensures that every aspect of the park prioritizes the comfort and well-being of its residents. From hands-on experience working with wildlife rehabilitation centers to extensive research, Alex's commitment to the animals is truly inspiring.
+</p>
+<P>
+Taylor, a natural-born educator with a flair for communication, 
+is responsible for the park's diverse range of educational programs and activities. Taylor's infectious enthusiasm for
+ wildlife and conservation resonates with visitors of all ages, making learning both engaging and enjoyable. 
+ With a background in environmental science, 
+Taylor is dedicated to raising awareness about the importance of protecting our planet's rich biodiversity.
+Together, Alex and Taylor have turned their vision into a reality, creating a wildlife park that not only 
+showcases some of the world's most extraordinary animals but also inspires a new generation of wildlife enthusiasts
+ and conservationists. Their passion, dedication, 
+ and determination at such a young age serve as a testament to the power of following your dreams and making a 
+ difference in the world.
 </P>
+</main>
+
+<footer> 
+    &copy; Riley 2023
+  </footer>
+  
+  </body>
+  
+  <style> 
+   h1 { text-align: center;
+    font-family: 'Baumans', cursive;
+   color: #37392e;
+   font-size: 350%
+  }
+  
+  h2 { text-align: center;
+    font-family: 'Bubbler One', sans-serif;
+      color: #37392e;
+    font-size: 320%;}
+  
+  body {background-color: #c8b153;}
+  
+  p { color: #37392e;
+    font-family: 'Mukta Mahee', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-top: 0.5cm;
+
+  }
+
+   footer { color: #37392e;
+    font-family: 'Mukta Mahee', sans-serif;
+  }
+  
+  a {
+    font-family: 'Mukta Mahee', sans-serif;
+    text-align: center;
+      text-decoration: none;
+      text-align: center;
+      color: #ffffff;
+      border: 5px solid #ffffff;
+      border-radius: 2em;
+      padding-left: 2em;
+      padding-right: 2em;
+      margin-top: 2cm;
+      font-size: 140%;
+    }
+    a:hover {
+      color: #808d6b;
+      background-color: #ffffff;
+    }
+  
+    nav{ text-align: center;}
+  
+   header { background-image: url(); 
+  }
+  
+  
+    body {
+      display: grid;
+  grid: 
+   " h    h    h " auto
+   " n    n    n " auto
+   " m    m    m " auto
+   " .    .    f " auto
+   / 1fr  5fr  1fr;
+    }
+  
+    header { grid-area: h; }
+    nav    { grid-area: n; }
+    main   { grid-area: m; }
+    footer { grid-area: f; }
+  
+  </style> 
+  </html>
