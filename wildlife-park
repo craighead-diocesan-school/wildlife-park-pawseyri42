@@ -24,9 +24,9 @@
 </header>
 
 <nav>
-<a href="index.html"> Home </a>
-<a href="opportunities.html"> Meet our animals </a>
-<a href="other-careers.html"> other info </a>     
+<a href="wildlife-park"> Home </a>
+<a href="meet the animals.html"> Meet our animals </a>
+<a href="other-info"> other info </a>     
 </nav>
 
 <main> 
@@ -43,6 +43,8 @@ Our park offers a range of immersive experiences, educational programs,
 and engaging activities for visitors of all ages. 
 Plan your visit today and discover the wonders of the animal kingdom at South Canterbury's Premier Wildlife Park!
   </p1>
+
+
 </main> 
 
 <footer> 
@@ -91,7 +93,7 @@ a {
     font-size: 140%;
   }
   a:hover {
-    color: #d4e6b5;
+    color: #808d6b;
     background-color: #ffffff;
   }
  p1{ color: #ffffff;
@@ -107,6 +109,8 @@ a {
 
  header { background-image: url(Screenshot\ 2023-05-15\ at\ 9.33.26\ AM.png); 
 }
+
+
 
   body {
     display: grid;
